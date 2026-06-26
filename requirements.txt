@@ -1,0 +1,21 @@
+# Core scientific stack
+numpy>=1.24
+opencv-python>=4.8
+scikit-learn>=1.3
+scikit-image>=0.21      # GLCM via skimage.feature.graycomatrix
+PyWavelets>=1.4         # SWT / DWT
+
+# Neural network
+torch>=2.1
+torchvision>=0.16
+
+# Fuzzy clustering
+scikit-fuzzy>=0.4.2
+
+# Visualisation / notebooks
+matplotlib>=3.7
+seaborn>=0.13
+pandas>=2.0
+jupyter>=1.0
+ipykernel>=6.0
+tqdm>=4.66
